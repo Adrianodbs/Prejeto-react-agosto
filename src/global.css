@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --verde-1: #60A692;
+  --verde-2: #AFCBC3;
+  --rosa: #F9C9DE;
+  --rosa-2: #F7A9DF;
+  --vinho: #591414;
+  
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}

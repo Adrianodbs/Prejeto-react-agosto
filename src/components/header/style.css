@@ -1,0 +1,31 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 360px;
+  background-color: var(--verde-1);
+}
+
+.logo{
+  width: 80px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+li{
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: .7;
+  transition: all .4s ease;
+  
+}
+
+li:hover{
+  opacity: 1;
+  border-bottom: 1px solid #fff;
+}
