@@ -1,0 +1,51 @@
+.encomenda{
+  display: flex;
+  align-items: center;
+  background-color: var(--verde-2);
+  border-radius: 8px;
+  margin: 30px auto;
+  width: 420px;
+  height: 200px;
+
+}
+
+.torta{
+  width: 200px;
+  height: 200px;
+  border-radius: 8px 0 0 8px;
+}
+
+.texto__encomenda{
+  color: var(--vinho);
+  margin-left: 20px;
+}
+
+.texto__encomenda h3{
+  font-weight: 500;
+}
+
+.texto__encomenda h2{
+  font-family: 'Pacifico', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: -10px;
+}
+
+.texto__detalhes{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.texto__detalhes img{
+  width: 30px;
+  height: 30px;
+  background-color: var(--rosa);
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 9px;
+}
+
+.texto__detalhes p{
+  font-weight: 600;
+}
