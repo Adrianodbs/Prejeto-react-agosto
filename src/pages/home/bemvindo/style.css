@@ -1,14 +1,17 @@
 .bemvindo{
   display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
   padding: 40px 360px;
-  gap: 50px;
   margin-top: 30px;
+  width: 100%;
+  gap: 50px;
 }
 
 .texto{
   height: 100%;
   color: var(--vinho);
-  width: 40%;
+  width: 60%;
 }
 
 .texto h3{
@@ -28,6 +31,7 @@
 }
 
 .imagem img{
-  width: 400px;
-  height: 100%;
+  width: 100%;
+  height: 90%;
+  margin-right: 0;
 }
