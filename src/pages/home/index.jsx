@@ -5,6 +5,7 @@ import BemVindo from './bemvindo'
 import Encomenda from "./encomenda";
 import Depoimentos from './Depoimentos';
 import Confeitaria from './confeitaria';
+import Contato from './contato';
 
 function Home() {
   return <div>
@@ -13,6 +14,7 @@ function Home() {
     <Encomenda />
     <Confeitaria />
     <Depoimentos />
+    <Contato />
   </div>
 }
 

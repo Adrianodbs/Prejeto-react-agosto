@@ -1,0 +1,53 @@
+.contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--vinho);
+  padding: 10px 360px;
+  margin-top: 20px;
+}
+
+.contato__info{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contato__info span{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contato__consumidor{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 4px solid var(--verde-2);
+}
+
+.contato__redes{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contato__redes img{
+  width: 45px;
+}
+
+.contato__franqueado{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato__franqueado p{
+  margin-bottom: 15px;
+  width: 50%;
+  font-weight: 500;
+}
