@@ -6,6 +6,7 @@ import Encomenda from "./encomenda";
 import Depoimentos from './Depoimentos';
 import Confeitaria from './confeitaria';
 import Contato from './contato';
+import Footer from '../../components/footer';
 
 function Home() {
   return <div>
@@ -15,6 +16,7 @@ function Home() {
     <Confeitaria />
     <Depoimentos />
     <Contato />
+    <Footer />
   </div>
 }
 
