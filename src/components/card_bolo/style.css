@@ -1,0 +1,41 @@
+.card-bolo{
+  width: 200px;
+  background-color: var(--verde-2);
+  color: var(--vinho);
+}
+
+.card-bolo__imagem{
+  width: 100%;
+}
+
+.card-bolo h2{
+  font-family: 'Pacifico', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.card-bolo p{
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.card__link{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.card__link a{
+  text-decoration: none;
+  color: var(--vinho);
+  font-size: 18px;
+}
+
+.card__link img{
+  width: 15px;
+  height: 15px;
+  margin-top: 4px;
+  cursor: pointer;
+}

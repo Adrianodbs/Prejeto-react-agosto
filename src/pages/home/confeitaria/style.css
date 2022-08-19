@@ -1,0 +1,25 @@
+.confeitaria{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 360px;
+  justify-content: center;
+  align-items: center;
+  color: var(--vinho);
+}
+
+.confeitaria h4{
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.confeitaria h2{
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.confeitaria__bolos{
+  display: flex;
+  gap: 15px;
+}
