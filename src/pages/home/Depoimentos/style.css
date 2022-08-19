@@ -5,6 +5,7 @@
   justify-content: center;
   margin-top: 80px;
   color: var(--vinho);
+  padding: 40px 450px;
 }
 
 .depoimentos h3{
@@ -15,4 +16,22 @@
   font-family: 'Pacifico', sans-serif;
   font-weight: 300;
   font-size: 40px;
+}
+
+.depoimentos__content{
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.depoimentos__content img{
+  width: 250px;
+  height: 250px;
+}
+
+.depoimentos__texto h4{
+  font-weight: 400;
+  color: var(--vinho);
+  font-size: 20px;
+  margin-bottom: 15px;
 }
