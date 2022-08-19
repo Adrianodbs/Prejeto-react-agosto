@@ -2,9 +2,41 @@
   background-color: var(--verde-1);
   color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 10px 360px;
-  gap: 30px;
+  gap: 50px;
+}
+
+
+.footer__logo{
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__img-redes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+.footer__img-redes img{
+  width: 45px;
+}
+
+.footer h4{
+  font-size: 20px;
+}
+
+.footer__local p{
+  margin-bottom: 15px;
+}
+
+.footer__local img{
+  width: 170px;
 }
 
 .footer__categorias{

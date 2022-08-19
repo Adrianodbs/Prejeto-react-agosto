@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className='footer'>
       <div className="footer__img">
-        <img src="./img/logo.png" alt="logo" />
+        <img src="./img/logo.png" alt="logo" className='footer__logo'/>
         <div className="footer__img-redes">
           <img src="./img/ig_rosa.png" alt="Instagram" />
           <img src="./img/wp_rosa.png" alt="Whatsapp" />
@@ -15,6 +15,7 @@ function Footer() {
         <p>Avenida Cardeal da Silva,<br/> 
           447, Federação<br/>
           CEP: 40231-250</p>
+        <img src="./img/mapa.png" alt="Localização" />
       </div>
       <div className="footer__categorias">
         <h4>Categorias</h4>
