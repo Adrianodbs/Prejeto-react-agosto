@@ -13,6 +13,10 @@
 ul{
   display: flex;
   list-style: none;
+
+}
+
+.header ul{
   gap: 30px;
 }
 

@@ -16,3 +16,11 @@
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
+
+body{
+  background: url('../public/img/bg_lines.png') ,
+              url('../public/img/body_bg.png') ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,8 +1,11 @@
+import MenuProdutos from './menu'
 import './style.css'
 
 function Produtos() {
   return (
-    <div>Produtos</div>
+    <div>
+      <MenuProdutos />
+    </div>
   )
 }
 
