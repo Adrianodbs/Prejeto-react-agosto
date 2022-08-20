@@ -16,7 +16,9 @@ ul{
   gap: 30px;
 }
 
-li{
+
+.header a, li{
+  text-decoration: none;
   color: #fff;
   font-weight: 500;
   cursor: pointer;

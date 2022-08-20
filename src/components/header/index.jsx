@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 import './style.css'
@@ -8,9 +9,15 @@ function Header() {
     <div className='header'>
       <img src='/img/logo.png' alt="Logo" className='logo' />
       <ul>
-        <li>Início</li>
-        <li>Produtos</li>
-        <li>Contato</li>
+        <li>
+          <Link to='/'>Início</Link>
+        </li>
+        <li>
+          <Link to='/produtos'>Produtos</Link>
+        </li>
+        <li>
+          <Link to='/contato'>Contato</Link>
+        </li>
       </ul>
     </div>
   )
