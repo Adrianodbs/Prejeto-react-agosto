@@ -32,3 +32,15 @@
   gap: 15px;
   margin-bottom: 50px;
 }
+
+.produto-ativo{
+  opacity: 1;
+}
+
+.conteudo_produto-ativo{
+  display: grid;
+}
+
+.conteudo_produto-escondido{
+  display: none;
+}
