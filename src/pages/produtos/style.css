@@ -1,0 +1,32 @@
+.produtos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 360px;
+}
+
+.produtos__info{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--vinho);
+}
+
+.produtos__info-texto h2{
+  font-family: 'Pacifico', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.produtos__info-redes--contato{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.produtos__info-redes--contato img{
+  width: 40px;
+}
