@@ -1,0 +1,36 @@
+.contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--vinho);
+}
+
+.contato__info{
+  padding-bottom: 80px;
+  width: 100%;
+  border-bottom: 8px solid var(--verde-1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contato__info-texto{
+  width: 60%;
+}
+
+.contato__info-texto p{
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.contato__info-texto h2{
+  font-family: 'Pacifico', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.contato__info-texto span{
+  font-weight: 400;
+}

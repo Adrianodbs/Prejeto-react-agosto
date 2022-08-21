@@ -1,0 +1,15 @@
+.redes__contato{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.redes__contato img{
+  width: 40px;
+}
+
+.redes__contato p{
+  font-weight: 500;
+  font-size: 18px;
+}
