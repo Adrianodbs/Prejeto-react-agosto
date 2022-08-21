@@ -3,13 +3,13 @@
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 10px 360px;
+  padding: 10px 250px;
   gap: 50px;
 }
 
 
 .footer__logo{
-  width: 160px;
+  width: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
 }
 
 .footer__img-redes img{
-  width: 45px;
+  width: 40px;
 }
 
 .footer h4{
@@ -36,7 +36,7 @@
 }
 
 .footer__local img{
-  width: 170px;
+  width: 140px;
 }
 
 .footer__categorias{

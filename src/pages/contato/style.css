@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   color: var(--vinho);
+  padding: 10px 250px;
 }
 
 .contato__info{
@@ -22,12 +23,12 @@
 
 .contato__info-texto p{
   font-weight: 700;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .contato__info-texto h2{
   font-family: 'Pacifico', sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -38,15 +39,15 @@
 /* Contato Franqueado */
 
 .contato__franqueado{
-  margin-top: 60px;
+  margin-top: 30px;
   width: 100%;
 }
 
 .contato__franqueado h2{
   font-family: 'Pacifico', sans-serif;
   font-weight: 400;
-  font-size: 40px;
-  margin-bottom: 30px;
+  font-size: 35px;
+  margin-bottom: 40px;
 }
 
 .contato__franqueado span {
@@ -54,4 +55,5 @@
   font-size: 19px;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 0;
 }

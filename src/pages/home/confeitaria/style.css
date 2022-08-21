@@ -1,7 +1,7 @@
 .confeitaria{
   display: flex;
   flex-direction: column;
-  padding: 40px 360px;
+  padding: 40px 250px;
   justify-content: center;
   align-items: center;
   color: var(--vinho);
