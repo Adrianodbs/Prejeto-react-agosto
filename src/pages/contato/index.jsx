@@ -1,5 +1,6 @@
 import Redes from '../../components/redes'
 import './style.css'
+import Botao from '../../components/Botao'
 
 function Contato() {
   return (
@@ -11,6 +12,11 @@ function Contato() {
           <span>Etiam condimentum orci eget tortor pharetra dignissim. Donec at diam non arcu aliquam feugiat. Cras dapibus commodo purus eu varius. Nullam commodo faucibus nulla in sodales. Suspendisse potenti. Integer viverra vestibulum sagittis. Ut lacus diam, sagittis a suscipit eget, lobortis quis dui.</span>
         </div>
         <Redes />
+      </section>
+      <section className="contato__franqueado">
+        <h2>Seja um franqueado</h2>
+        <span>A Villa dos Bolos tem uma maravilhosa rede de franquias</span>
+        <Botao>Quero ser um franqueado</Botao>
       </section>
     </div>
   )

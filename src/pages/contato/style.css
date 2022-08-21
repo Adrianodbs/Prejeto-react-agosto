@@ -9,7 +9,7 @@
 .contato__info{
   padding-bottom: 80px;
   width: 100%;
-  border-bottom: 8px solid var(--verde-1);
+  border-bottom: 6px solid var(--verde-1);
 
   display: flex;
   justify-content: space-between;
@@ -33,4 +33,25 @@
 
 .contato__info-texto span{
   font-weight: 400;
+}
+
+/* Contato Franqueado */
+
+.contato__franqueado{
+  margin-top: 60px;
+  width: 100%;
+}
+
+.contato__franqueado h2{
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.contato__franqueado span {
+  font-weight: 600;
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 30px;
 }
