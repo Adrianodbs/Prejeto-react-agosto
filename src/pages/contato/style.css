@@ -1,4 +1,4 @@
-.contato{
+.contato-page{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,8 +32,9 @@
   font-weight: 400;
 }
 
-.contato__info-texto span{
+.texto-contato{
   font-weight: 400;
+  font-size: 15px;
 }
 
 /* Contato Franqueado */

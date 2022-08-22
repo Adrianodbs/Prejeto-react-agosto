@@ -27,7 +27,8 @@
 
 .texto p{
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+  font-size: 15px;
 }
 
 .imagem img{

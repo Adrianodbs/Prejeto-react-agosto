@@ -1,4 +1,4 @@
-.contato{
+.contato-home{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +9,17 @@
   margin-bottom: 30px;
 }
 
+.contato-home h2{
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.contato-home h4{
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .contato__info{
   display: flex;
   width: 100%;
@@ -17,7 +28,7 @@
 
 .contato__info span{
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 40px;
 }
 
@@ -51,9 +62,10 @@
 .contato__franqueado p{
   margin-bottom: 15px;
   width: 70%;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .contato__franqueado span{
-  margin-top: -65px;
+  margin-top: -30px;
 }

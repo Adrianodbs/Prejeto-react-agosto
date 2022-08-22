@@ -4,7 +4,7 @@ import Botao from '../../../components/Botao'
 
 function Contato() {
   return (
-    <div className='contato'>
+    <div className='contato-home'>
       <h4>Entre em contato e</h4>
       <h2>Faça sua encomenda</h2>
       <div className="contato__info">
