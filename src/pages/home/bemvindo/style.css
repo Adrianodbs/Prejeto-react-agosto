@@ -36,3 +36,47 @@
   height: 90%;
   margin-right: 0;
 }
+
+/* Responsivo */
+
+
+@media (max-width:1250px){
+  .bemvindo{
+    padding: 30px 150px;
+  }
+
+  .imagem img{
+    width: 80%;
+  }
+}
+
+@media (max-width:1050px){
+  .bemvindo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imagem img{
+    width: 400px;
+  }
+}
+
+@media (max-width:800px){
+  .texto{
+    width: 80%;
+  }
+}
+
+@media (max-width:500px){
+  .bemvindo{
+    padding: 10px 30px;
+  }
+  .texto{
+    width: 90%;
+  }
+  .imagem img{
+    width: 350px;
+  }
+}

@@ -49,3 +49,20 @@
 .texto__detalhes p{
   font-weight: 600;
 }
+
+/* Responsivo */
+
+@media (max-width:500px){
+  .torta{
+    width: 150px;
+    height: 150px;
+  }
+
+  .texto__encomenda h2{
+    font-size: 25px;
+  }
+
+  .encomenda{
+    height: 150px;
+  }
+}

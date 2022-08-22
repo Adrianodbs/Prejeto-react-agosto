@@ -35,3 +35,15 @@ li:hover{
   opacity: 1;
   border-bottom: 1px solid #fff;
 }
+
+/* Responsivo */
+
+
+@media (max-width:900px){
+  .header{
+    padding: 0 100px;
+  }
+  .logo{
+    width: 50px;
+  }
+}
