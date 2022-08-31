@@ -10,6 +10,10 @@
   width: 80px;
 }
 
+.logo-mobile{
+  display: none;
+}
+
 ul{
   display: flex;
   list-style: none;
@@ -36,6 +40,14 @@ li:hover{
   border-bottom: 1px solid #fff;
 }
 
+.menu-hamburguer{
+  display: none;
+}
+
+.icon-menu{
+  display: none;
+}
+
 /* Responsivo */
 
 
@@ -45,5 +57,55 @@ li:hover{
   }
   .logo{
     width: 50px;
+  }
+}
+
+@media (max-width:780px){
+  .header{
+    position: relative;
+    padding: 7px 20px;
+  }
+
+  .header ul{
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    top: 45px;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    
+  }
+
+  .header a{
+    color: var(--vinho);
+    opacity: 1;
+    border-bottom: 2px solid var(--vinho);
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .logo-mobile{
+    display: block;
+  }
+
+  .menu-hamburguer{
+    display: block;
+    cursor: pointer;
+  }
+
+  .icon-menu{
+    display: inline-block;
+  }
+
+  .menu-hide{
+    display: none;
   }
 }
