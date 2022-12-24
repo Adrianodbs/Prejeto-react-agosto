@@ -7,6 +7,8 @@
   color: var(--vinho);
   text-align: center;
   width: 100%;
+  align-content: center;
+  overflow: hidden;
 }
 
 .confeitaria h4{

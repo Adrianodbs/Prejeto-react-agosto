@@ -14,6 +14,14 @@
   display: none;
 }
 
+.menu-hamburguer{
+  display: none;
+}
+
+.icon-menu{
+  display: none;
+}
+
 ul{
   display: flex;
   list-style: none;
@@ -23,7 +31,6 @@ ul{
 .header ul{
   gap: 30px;
 }
-
 
 .header a, li{
   text-decoration: none;
@@ -40,15 +47,8 @@ li:hover{
   border-bottom: 1px solid #fff;
 }
 
-.menu-hamburguer{
-  display: none;
-}
 
-.icon-menu{
-  display: none;
-}
 
-/* Responsivo */
 
 
 @media (max-width:900px){
@@ -108,4 +108,4 @@ li:hover{
   .menu-hide{
     display: none;
   }
-}
+} 

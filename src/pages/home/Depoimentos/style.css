@@ -6,6 +6,7 @@
   margin-top: 10px;
   color: var(--vinho);
   padding: 40px 300px;
+  min-width: 100%;
 }
 
 .depoimentos h3{
@@ -34,4 +35,8 @@
   color: var(--vinho);
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width:900px){
+  
 }

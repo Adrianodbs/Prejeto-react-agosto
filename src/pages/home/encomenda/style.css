@@ -4,7 +4,8 @@
   background-color: var(--verde-2);
   border-radius: 8px;
   margin: 30px auto;
-  width: 420px;
+  max-width: 420px;
+  width: 90%;
   height: 200px;
 
 }
@@ -54,8 +55,7 @@
 
 @media (max-width:500px){
   .torta{
-    width: 150px;
-    height: 150px;
+    display: none;
   }
 
   .texto__encomenda h2{
