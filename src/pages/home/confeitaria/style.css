@@ -1,14 +1,23 @@
 .confeitaria{
   display: flex;
   flex-direction: column;
-  /* padding: 40px; */
+  padding: 40px;
   justify-content: center;
   align-items: center;
   color: var(--vinho);
   text-align: center;
   width: 100%;
   align-content: center;
-  overflow: hidden;
+
+}
+
+.confeitaria__produtos{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .confeitaria h4{
@@ -31,23 +40,7 @@
   /* gap: 15px; */
 }
 
-.carousel{
-  cursor: grab;
-  overflow: hidden;
-  width: 100%;
-  
 
-}
-
-.carousel__item{
-  min-height: 200px;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  /* width: 90%; */
-  justify-content: center;
-  align-items: center;
-}
 
 @media screen and (max-width:700px){
   .carousel__item{
