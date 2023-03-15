@@ -5,7 +5,7 @@
   justify-content: center;
   margin-top: 10px;
   color: var(--vinho);
-  padding: 40px 300px;
+  padding: 40px 60px;
   min-width: 100%;
 }
 
@@ -21,6 +21,7 @@
 
 .depoimentos__content{
   display: flex;
+  align-items: center;
   margin-top: 40px;
   gap: 40px;
 }
@@ -38,5 +39,27 @@
 }
 
 @media screen and (max-width:900px){
-  
+  .depoimentos{
+    padding: 40px ;
+  }
+}
+
+@media screen and (max-width:640px){
+  .depoimentos__content img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .depoimentos__texto h2{
+    font-size: 20px;
+  }
+  .depoimentos__texto h4{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:430px){
+  .depoimentos__content img{
+    display: none;
+  }
 }
